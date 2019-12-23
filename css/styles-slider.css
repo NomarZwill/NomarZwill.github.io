@@ -1,0 +1,39 @@
+.slider-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.article-slider {
+    height: 17rem;
+    overflow-y: auto;
+}
+
+.slider-box__navigation {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+.slider-box__num-of-articles {
+    margin: 0 2rem;
+}
+
+.next-button,
+.prev-button {
+    outline: none;
+    border: none;
+    background: none;
+}
+
+.next-button:hover path,
+.prev-button:hover path {
+    fill: #FF3754;
+}
+
+.next-button path,
+.prev-button path {
+    fill: #363636;
+    transition: 0.2s;
+    transition-timing-function: ease-in-out;
+}
