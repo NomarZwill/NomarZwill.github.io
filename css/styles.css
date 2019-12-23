@@ -73,7 +73,8 @@ body {
     grid-column-end: 13;
     background-color: rgb(241, 241, 241);
     display: flex;
-    justify-content: space-between;
+    flex-flow: column wrap;
+    justify-content: center;
     align-items: center;
     position: relative;
     z-index: 1;
@@ -94,6 +95,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding-left: 0.5rem;
+    padding-bottom: 0.5rem;
 }
 
 .content-container {
@@ -127,15 +129,14 @@ body {
 }
 
 .subnavbar--close {
-    margin: -2.2rem 0 0 0;
+    margin: -7rem 0 0 0;
     position: relative;
     z-index: -1;
     transition: 0.5s;
 }
 
 .subnavbar--open {
-    margin: 0 0 -75px 0;
-    padding: 20px 0;
+    margin: 0 0 -7rem 0;
     position: relative;
     z-index: 2;
     transition: 0.5s;
@@ -267,6 +268,15 @@ a.in-article-reference {
 
     .header-font-set {
         color: rgb(100, 100, 100);
+    }
+
+    .contacts {
+        margin: 1rem 0 0 0;
+        padding: 0;
+    }
+
+    .navbar-list {
+        padding: 0 0 0 0;
     }
 
     .content-container {
